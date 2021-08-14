@@ -25,7 +25,9 @@ class CreateProductDetailsTable extends Migration
             $table->string('photo')->nullable();
             $table->string('price')->default(0);
             $table->integer('quantity')->default(0);
-            $table->double('weight_kg')->default(0);
+            $table->double('length')->default(0);
+            $table->double('width')->default(0);
+            $table->double('height')->default(0);
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');

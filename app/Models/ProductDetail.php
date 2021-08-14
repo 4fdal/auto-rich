@@ -20,14 +20,23 @@ class ProductDetail extends Model
         'photo',
         'price',
         'quantity',
-        'weight_kg'
+        'length',
+        'width',
+        'height',
     ];
 
-    public function product(){
+    public function product()
+    {
         return $this->belongsTo(Product::class, 'product_id');
     }
 
-    public function discountId(){
+    public function discount()
+    {
         return $this->belongsTo(Discount::class, 'discount_id');
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id');
     }
 }

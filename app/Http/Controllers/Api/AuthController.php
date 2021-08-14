@@ -3,12 +3,15 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
+use App\Models\UserBusiness;
 use App\Utils\Response\ResponseFormatter;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\Rule;
 
 class AuthController extends Controller
 {
@@ -46,6 +49,7 @@ class AuthController extends Controller
 
             $user = Auth::guard('api-jwt')->user();
 
+            $user->business ;
 
             return ResponseFormatter::success(__('auth.success'), [
                 'auth' => $this->resultsWithToken($token),
@@ -109,13 +113,17 @@ class AuthController extends Controller
         try {
             DB::beginTransaction();
             $request->validate([
-                'name' => ['required'],
+                'owner_name' => ['required'],
+                'business_name' => ['required'],
+                'business_address' => ['required'],
+                'type' => ['required'],
+                'business_mode' => ['required', Rule::in(['online', 'offline'])],
                 'email' => ['required', 'unique:users,email', 'email'],
                 'password' => ['required', 'confirmed'],
             ]);
 
             $user = User::create([
-                'name' => $request->name,
+                'name' => $request->owner_name,
                 'role_id' => 2,
                 'email' => $request->email,
                 'password' => Hash::make($request->password),
@@ -123,10 +131,20 @@ class AuthController extends Controller
             ]);
 
 
+            $business = UserBusiness::create([
+                'user_id' => $user->id,
+                'name' => $request->business_name,
+                'address_line1' => $request->business_address,
+                'type' => $request->type,
+                'mode' => $request->business_mode,
+            ]);
+
+
             DB::commit();
 
             return ResponseFormatter::success('success register', [
-                'users' => $user,
+                'user' => $user,
+                'business' => $business,
             ]);
         } catch (\Exception $e) {
             DB::rollBack();

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\ProductController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -21,7 +22,17 @@ Route::group(['prefix' => 'v1'], function () {
         });
     });
 
-    Route::group(['prefix' => 'product'], function(){
+    Route::group(['prefix' => 'product'], function () {
+        Route::group(['middleware' => 'auth:api-jwt'], function () {
+            Route::get('/user', [ProductController::class, 'browseUser']);
+            Route::post('/add', [ProductController::class, 'add']);
+            Route::post('/edit', [ProductController::class, 'edit']);
+            Route::delete('/delete', [ProductController::class, 'delete']);
+        });
+
         Route::get('/', [ProductController::class, 'browse']);
+        Route::get('/{id}', [ProductController::class, 'read']);
     });
+
+
 });
