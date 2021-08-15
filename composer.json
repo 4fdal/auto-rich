@@ -15,7 +15,8 @@
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
         "tcg/voyager": "^1.4",
-        "tymon/jwt-auth": "^1.0"
+        "tymon/jwt-auth": "^1.0",
+        "gd": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
