@@ -49,6 +49,8 @@ class AuthController extends Controller
 
             $user = Auth::guard('api-jwt')->user();
 
+            $user->avatar = env('APP_URL')+"/storage/"+$user->avatar ;
+
             $user->business ;
 
             return ResponseFormatter::success(__('auth.success'), [
