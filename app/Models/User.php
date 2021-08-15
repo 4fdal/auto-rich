@@ -72,4 +72,8 @@ class User extends \TCG\Voyager\Models\User implements JWTSubject
     public function business(){
         return $this->hasOne(UserBusiness::class, 'user_id');
     }
+
+    public function getFullUrlAvatar(){
+        return asset("/storage/".$this->avatar);
+    }
 }

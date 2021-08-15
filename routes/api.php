@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\ProductController;
+use App\Http\Controllers\Api\ProfileController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -19,6 +20,12 @@ Route::group(['prefix' => 'v1'], function () {
             Route::post('me', [AuthController::class, 'me']);
             Route::post('logout', [AuthController::class, 'logout']);
             Route::post('refresh', [AuthController::class, 'refresh']);
+        });
+    });
+
+    Route::group(['middleware' => 'auth:api-jwt'], function(){
+        Route::group(['prefix' => 'profile'], function () {
+            Route::get('/', [ProfileController::class, 'read']);
         });
     });
 
