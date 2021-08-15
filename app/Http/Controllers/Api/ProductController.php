@@ -86,6 +86,68 @@ class ProductController extends Controller
         }
     }
 
+    public function browseUser(Request $request){
+        try {
+
+            $request->validate([
+                'q' => ['nullable'],
+                'my_product' => ['nullable']
+            ]);
+
+            $product = new ProductDetail();
+
+            if ($request->q) {
+                $product = $product->where("name", "like", "%{$request->q}%");
+            }
+
+            if ($request->my_product) {
+                $user = User::getAuth();
+
+                $user_id = $user->id;
+                $product = $product->where('product_details.user_id', $user_id);
+            }
+
+
+            $product = $product->paginate(10)->toArray();
+
+            $new_data = [];
+            $tag_list = [];
+            foreach ($product['data'] as $index => $value) {
+                $value['tag'] = json_decode($value['tag']);
+                $value['photo'] = json_decode($value['photo']);
+
+                $value['user'] = User::where('id', $value['user_id'])->first();
+                $value['discount'] = null;
+                $value['discounted'] = 0;
+                if (isset($value['discount_id'])) {
+                    $value['discount'] = Discount::where('id', $value['discount_id'])->first();
+                    switch ($value['discount']['type']) {
+                        case 'fixed':
+                            $value['discounted'] = $value['price'] - $value['discount']['value'];
+                            break;
+
+                        default:
+                            $value['discounted'] = $value['price'] - ($value['price'] * $value['discount']['value'] / 100);
+                            break;
+                    }
+                }
+
+                $tag_list = [...$tag_list, ...$value['tag']];
+
+                $new_data[$index] = $value;
+            }
+
+            $product['data'] = $new_data;
+
+            return ResponseFormatter::success("Success", [
+                'product' => $product,
+                'tag_list' => $tag_list,
+            ]);
+        } catch (\Exception $e) {
+            return ResponseFormatter::failed($e);
+        }
+    }
+
     public function read($id)
     {
         try {
