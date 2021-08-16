@@ -3,6 +3,7 @@
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\ProductController;
 use App\Http\Controllers\Api\ProfileController;
+use App\Http\Controllers\Api\PromotionController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -27,6 +28,10 @@ Route::group(['prefix' => 'v1'], function () {
         Route::group(['prefix' => 'profile'], function () {
             Route::get('/', [ProfileController::class, 'read']);
         });
+
+        Route::group(['prefix' => 'promotion'], function(){
+            Route::post('/sms-broadcast', [PromotionController::class, 'smsBroadcast']);
+        });
     });
 
     Route::group(['prefix' => 'product'], function () {
@@ -40,6 +45,7 @@ Route::group(['prefix' => 'v1'], function () {
         Route::get('/', [ProductController::class, 'browse']);
         Route::get('/{id}', [ProductController::class, 'read']);
     });
+
 
 
 });
