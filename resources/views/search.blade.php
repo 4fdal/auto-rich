@@ -61,7 +61,7 @@
         }
 
     </style>
-    <link href="/css/main.css" rel="stylesheet" />
+    <link href="{{asset('/')}}css/main.css" rel="stylesheet" />
     <meta name="robots" content="noindex, follow">
 </head>
 
@@ -93,7 +93,7 @@
             </fieldset>
         </form>
     </div>
-    <script src="/js/extention/choices.js"></script>
+    <script src="{{asset('/')}}/js/extention/choices.js"></script>
     <script>
         var textPresetVal = new Choices('#choices-text-preset-values', {
             removeItemButton: true,
