@@ -142,31 +142,31 @@
 								<a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
 							</div>
 							<div class="sinlge-bar shopping">
-								<a href="#" class="single-icon"><i class="ti-bag"></i> <span class="total-count">2</span></a>
+
 								<!-- Shopping Item -->
 								<div class="shopping-item">
-									<div class="dropdown-cart-header">
+									{{-- <div class="dropdown-cart-header">
 										<span>2 Items</span>
 										<a href="#">View Cart</a>
-									</div>
+									</div> --}}
 									<ul class="shopping-list">
 										<li>
 											<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
 											<a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
 											<h4><a href="#">Woman Ring</a></h4>
-											<p class="quantity">1x - <span class="amount">$99.00</span></p>
+											<p class="quantity">1x - <span class="amount">IDR 99.000</span></p>
 										</li>
 										<li>
 											<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
 											<a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
 											<h4><a href="#">Woman Necklace</a></h4>
-											<p class="quantity">1x - <span class="amount">$35.00</span></p>
+											<p class="quantity">1x - <span class="amount">IDR 35.000</span></p>
 										</li>
 									</ul>
 									<div class="bottom">
 										<div class="total">
 											<span>Total</span>
-											<span class="total-amount">$134.00</span>
+											<span class="total-amount">IDR 134.000</span>
 										</div>
 										<a href="#" class="btn animate">Checkout</a>
 									</div>
@@ -261,13 +261,13 @@
 													<li class="active"><a href="#">Home</a></li>
 													<li><a href="#">Product</a></li>
 													<li><a href="#">Service</a></li>
-													<li><a href="#">Shop<i class="ti-angle-down"></i><span class="new">New</span></a>
+													{{-- <li><a href="#">Shop<i class="ti-angle-down"></i><span class="new">New</span></a>
 														<ul class="dropdown">
 															<li><a href="#">Shop Grid</a></li>
 															<li><a href="#">Cart</a></li>
 															<li><a href="#">Checkout</a></li>
 														</ul>
-													</li>
+													</li> --}}
 													<li><a href="#">Pages</a></li>
 													<li><a href="#">Blog<i class="ti-angle-down"></i></a>
 														<ul class="dropdown">
@@ -407,14 +407,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Hot Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -433,14 +433,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Pink Show</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -459,14 +459,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -486,14 +486,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Pant Collectons</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -512,14 +512,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -539,14 +539,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Cap For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -565,14 +565,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Polo Dress For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -592,15 +592,15 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Black Sunglass For Women</a></h3>
 														<div class="product-price">
-															<span class="old">$60.00</span>
-															<span>$50.00</span>
+															<span class="old">IDR 60.000</span>
+															<span>IDR 50.000</span>
 														</div>
 													</div>
 												</div>
@@ -627,14 +627,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Hot Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -653,14 +653,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Pink Show</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -679,14 +679,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -706,14 +706,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Pant Collectons</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -732,14 +732,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -759,14 +759,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Cap For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -785,14 +785,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Polo Dress For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -812,15 +812,15 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Black Sunglass For Women</a></h3>
 														<div class="product-price">
-															<span class="old">$60.00</span>
-															<span>$50.00</span>
+															<span class="old">IDR 60.000</span>
+															<span>IDR 50.000</span>
 														</div>
 													</div>
 												</div>
@@ -847,14 +847,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Hot Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -873,14 +873,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Pink Show</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -899,14 +899,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -926,14 +926,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Pant Collectons</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -952,14 +952,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -979,14 +979,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Cap For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1005,14 +1005,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Polo Dress For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1032,15 +1032,15 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Black Sunglass For Women</a></h3>
 														<div class="product-price">
-															<span class="old">$60.00</span>
-															<span>$50.00</span>
+															<span class="old">IDR 60.000</span>
+															<span>IDR 50.000</span>
 														</div>
 													</div>
 												</div>
@@ -1067,14 +1067,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Hot Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1093,14 +1093,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Pink Show</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1119,14 +1119,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1146,14 +1146,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Pant Collectons</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1172,14 +1172,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1199,14 +1199,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Cap For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1225,14 +1225,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Polo Dress For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1252,15 +1252,15 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Black Sunglass For Women</a></h3>
 														<div class="product-price">
-															<span class="old">$60.00</span>
-															<span>$50.00</span>
+															<span class="old">IDR 60.000</span>
+															<span>IDR 50.000</span>
 														</div>
 													</div>
 												</div>
@@ -1287,14 +1287,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Hot Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1313,14 +1313,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Pink Show</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1339,14 +1339,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1366,14 +1366,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Pant Collectons</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1392,14 +1392,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1419,14 +1419,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Cap For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1445,14 +1445,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Polo Dress For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1472,15 +1472,15 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Black Sunglass For Women</a></h3>
 														<div class="product-price">
-															<span class="old">$60.00</span>
-															<span>$50.00</span>
+															<span class="old">IDR 60.000</span>
+															<span>IDR 50.000</span>
 														</div>
 													</div>
 												</div>
@@ -1507,14 +1507,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Hot Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1533,14 +1533,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Pink Show</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1559,14 +1559,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1586,14 +1586,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Women Pant Collectons</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1612,14 +1612,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Bags Collection</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1639,14 +1639,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Awesome Cap For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1665,14 +1665,14 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Polo Dress For Women</a></h3>
 														<div class="product-price">
-															<span>$29.00</span>
+															<span>IDR 29.000</span>
 														</div>
 													</div>
 												</div>
@@ -1692,15 +1692,15 @@
 																<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 															</div>
 															<div class="product-action-2">
-																<a title="Add to cart" href="#">Add to cart</a>
+																<a title="Get Product" href="#">Get Product</a>
 															</div>
 														</div>
 													</div>
 													<div class="product-content">
 														<h3><a href="#">Black Sunglass For Women</a></h3>
 														<div class="product-price">
-															<span class="old">$60.00</span>
-															<span>$50.00</span>
+															<span class="old">IDR 60.000</span>
+															<span>IDR 50.000</span>
 														</div>
 													</div>
 												</div>
@@ -1778,15 +1778,15 @@
 										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 									</div>
 									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+										<a title="Get Product" href="#">Get Product</a>
 									</div>
 								</div>
 							</div>
 							<div class="product-content">
 								<h3><a href="#">Black Sunglass For Women</a></h3>
 								<div class="product-price">
-									<span class="old">$60.00</span>
-									<span>$50.00</span>
+									<span class="old">IDR 60.000</span>
+									<span>IDR 50.000</span>
 								</div>
 							</div>
 						</div>
@@ -1805,14 +1805,14 @@
 										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 									</div>
 									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+										<a title="Get Product" href="#">Get Product</a>
 									</div>
 								</div>
                             </div>
                             <div class="product-content">
                                 <h3><a href="#">Women Hot Collection</a></h3>
                                 <div class="product-price">
-                                    <span>$50.00</span>
+                                    <span>IDR 50.000</span>
                                 </div>
                             </div>
                         </div>
@@ -1832,14 +1832,14 @@
 										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 									</div>
 									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+										<a title="Get Product" href="#">Get Product</a>
 									</div>
 								</div>
                             </div>
                             <div class="product-content">
                                 <h3><a href="#">Awesome Pink Show</a></h3>
                                 <div class="product-price">
-                                    <span>$50.00</span>
+                                    <span>IDR 50.000</span>
                                 </div>
                             </div>
                         </div>
@@ -1858,14 +1858,14 @@
 										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 									</div>
 									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+										<a title="Get Product" href="#">Get Product</a>
 									</div>
 								</div>
                             </div>
                             <div class="product-content">
                                 <h3><a href="#">Awesome Bags Collection</a></h3>
                                 <div class="product-price">
-                                    <span>$50.00</span>
+                                    <span>IDR 50.000</span>
                                 </div>
                             </div>
                         </div>
@@ -1892,16 +1892,16 @@
 					<!-- Start Single List  -->
 					<div class="single-list">
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-12">
+							{{-- <div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
 									<img src="https://via.placeholder.com/115x140" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
-							</div>
+							</div> --}}
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h4 class="title"><a href="#">Licity jelly leg flat Sandals</a></h4>
-									<p class="price with-discount">$59</p>
+									<p class="price with-discount">IDR 59</p>
 								</div>
 							</div>
 						</div>
@@ -1919,7 +1919,7 @@
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$44</p>
+									<p class="price with-discount">IDR 44</p>
 								</div>
 							</div>
 						</div>
@@ -1937,7 +1937,7 @@
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$89</p>
+									<p class="price with-discount">IDR 89</p>
 								</div>
 							</div>
 						</div>
@@ -1964,7 +1964,7 @@
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$65</p>
+									<p class="price with-discount">IDR 65</p>
 								</div>
 							</div>
 						</div>
@@ -1982,7 +1982,7 @@
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$33</p>
+									<p class="price with-discount">IDR 33</p>
 								</div>
 							</div>
 						</div>
@@ -2000,7 +2000,7 @@
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$77</p>
+									<p class="price with-discount">IDR 77</p>
 								</div>
 							</div>
 						</div>
@@ -2027,7 +2027,7 @@
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$22</p>
+									<p class="price with-discount">IDR 22</p>
 								</div>
 							</div>
 						</div>
@@ -2045,7 +2045,7 @@
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$35</p>
+									<p class="price with-discount">IDR 35</p>
 								</div>
 							</div>
 						</div>
@@ -2063,7 +2063,7 @@
 							<div class="col-lg-6 col-md-6 col-12 no-padding">
 								<div class="content">
 									<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
-									<p class="price with-discount">$99</p>
+									<p class="price with-discount">IDR 99</p>
 								</div>
 							</div>
 						</div>
@@ -2091,7 +2091,7 @@
 								<p class="small-title">Deal of day</p>
 								<h3 class="title">Beatutyful dress for women</h3>
 								<p class="text">Suspendisse massa leo, vestibulum cursus nulla sit amet, frungilla placerat lorem. Cars fermentum, sapien. </p>
-								<h1 class="price">$1200 <s>$1890</s></h1>
+								<h1 class="price">IDR 1200 <s>IDR 1890</s></h1>
 								<div class="coming-time">
 									<div class="clearfix" data-countdown="2021/02/30"></div>
 								</div>
@@ -2271,7 +2271,7 @@
                                             <span><i class="fa fa-check-circle-o"></i> in stock</span>
                                         </div>
                                     </div>
-                                    <h3>$29.00</h3>
+                                    <h3>IDR 29.000</h3>
                                     <div class="quickview-peragraph">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste laborum ad impedit pariatur esse optio tempora sint ullam autem deleniti nam in quos qui nemo ipsum numquam.</p>
                                     </div>
@@ -2315,7 +2315,7 @@
 										<!--/ End Input Order -->
 									</div>
 									<div class="add-to-cart">
-										<a href="#" class="btn">Add to cart</a>
+										<a href="#" class="btn">Redirect Store</a>
 										<a href="#" class="btn min"><i class="ti-heart"></i></a>
 										<a href="#" class="btn min"><i class="fa fa-compress"></i></a>
 									</div>
