@@ -93,7 +93,7 @@
             </fieldset>
         </form>
     </div>
-    <script src="{{asset('/')}}/js/extention/choices.js"></script>
+    <script src="{{asset('/')}}js/extention/choices.js"></script>
     <script>
         var textPresetVal = new Choices('#choices-text-preset-values', {
             removeItemButton: true,
