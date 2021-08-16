@@ -9,13 +9,18 @@ use Illuminate\Support\Facades\Http;
 
 class PromotionController extends Controller
 {
-    public function smsBroadcast(Request $request){
+    public function smsBroadcast(Request $request)
+    {
         try {
 
             $request->validate([
                 'message' => ['required', 'string'],
                 'contact' => ['required', 'array'],
-                'contact.*' => ['string', ]
+                'contact.*' => ['string', function ($att, $val, $fail) {
+                    if (substr($val, 0, 4) != '+628') {
+                        $fail("$att format is +628xxx");
+                    }
+                }]
             ]);
 
             $response = Http::withHeaders([
@@ -26,7 +31,6 @@ class PromotionController extends Controller
             ]);
 
             return ResponseFormatter::success('Success', $response->json());
-
         } catch (\Exception $e) {
             return ResponseFormatter::failed($e);
         }
