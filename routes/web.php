@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 Route::get('/products', function () {
     return view('welcome');
-});
+})->name('index.product');
 
 
 Route::group(['prefix' => 'admin'], function () {
