@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="colorlib.com">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{ asset('') }}css/bootstrap.css">
+
     <style id="" media="all">
         /* devanagari */
         @font-face {
@@ -61,7 +64,7 @@
         }
 
     </style>
-    <link href="{{asset('/')}}css/main.css" rel="stylesheet" />
+    <link href="{{ asset('/') }}css/main.css" rel="stylesheet" />
     <meta name="robots" content="noindex, follow">
 </head>
 
@@ -71,29 +74,55 @@
             <fieldset>
                 <legend>Find Your Cheapest Price </legend>
                 <div class="inner-form">
-                     <div class="input-field">
+                    <div class="input-field">
                         <input class="form-control" id="choices-text-preset-values" type="text"
                             placeholder="Type to search..." />
-                        <a class="btn-search" href="{{route('index.product')}}">
+                        <a class="btn-search" href="{{ route('index.product') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <path
                                     d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
                                 </path>
                             </svg>
-                        </a >
-                    </form>
+                        </a>
+                    </div>
                 </div>
-                <div class="suggestion-wrap">
-                    <span>New Arrivals</span>
-                    <span>Ladies</span>
-                    <span>Mens</span>
-                    <span>Accessories</span>
-                    <span>Sale</span>
+                <div class="card-footer">
+                    <div class="suggestion-wrap">
+                        <span>New Arrivals</span>
+                        <span>Ladies</span>
+                        <span>Mens</span>
+                        <span>Accessories</span>
+                        <span>Sale</span>
+                    </div>
                 </div>
             </fieldset>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row" style="justify-content: center; align-items: center">
+                        <div class="col-*-*">
+                            <img width="75%" src="https://www.cariharga.co.id/img/tokopedia.png">
+                        </div>
+                        <div class="col-*-*">
+                            <img width="75%" src="https://www.cariharga.co.id/img/bukalapak.png">
+                        </div>
+                        <div class="col-*-*">
+                            <img width="75%" src="https://www.cariharga.co.id/img/lazada.png">
+                        </div>
+                        <div class="col-*-*">
+                            <img width="75%" src="https://www.cariharga.co.id/img/elevenia.png">
+                        </div>
+                        <div class="col-*-*">
+                            <img width="75%" src="https://www.cariharga.co.id/img/shopee.png">
+                        </div>
+                        <div class="col-*-*">
+                            <img width="75%" src="https://www.cariharga.co.id/img/blibli.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </form>
     </div>
-    <script src="{{asset('/')}}js/extention/choices.js"></script>
+    <script src="{{ asset('/') }}js/extention/choices.js"></script>
     <script>
         var textPresetVal = new Choices('#choices-text-preset-values', {
             removeItemButton: true,
